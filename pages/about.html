@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About ePDS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../css/output.css">
+</head>
+    <!--Header-->
+    <div class="bg-green-900 text-sm py-2 px-4 text-right text-white font-bold md:text-md">
+        <div class="flex justify-end space-x-12">
+            <p class="hover:text-slate-300 cursor-pointer transition-all ease-in-out duration-150">English</p>
+            <p class="hover:text-slate-300 cursor-pointer transition-all ease-in-out duration-150">தமிழ்</p>
+            <p class="hover:text-slate-300 cursor-pointer transition-all ease-in-out duration-150">+91 XXXXX XXXXX</p>
+        </div>
+    </div>
+
+    <!--Navbar-->
+    <section id="navbar" class="relative">
+        <nav class="bg-green-700 px-10 flex justify-between">
+            <!--Logo-->
+            <div class="flex space-x-2 my-2">
+                <img src="../images/tn_govt.svg" alt="" class="h-12 md:h-20 place-self-center">
+                <div class="flex flex-col text-white place-self-center w-[50%] md:w-[70%]">
+                    <p class="hidden text-xs lg:flex lg:text-md">OFFICIAL WEBSITE OF CIVIL SUPPLIES AND CONSUMER PROTECTION
+                        DEPARTMENT, GOVERNMENT OF TAMILNADU</p>
+                    <p class="text-sm font-bold lg:text-lg">E-PUBLIC DISTRIBUTION SYSTEM</p>
+                </div>
+            </div>
+            <!--Nav Links-->
+            <div class="hidden space-x-10 place-self-center md:flex">
+                <a
+                    class="text-white text-md lg:text-xl hover:text-slate-400 cursor-pointer transition-colors ease-in duration-150" href="../pages/home.html">
+                    Home
+                </a>
+                <h1
+                    class="text-white text-md lg:text-xl hover:text-slate-400 cursor-pointer transition-colors ease-in duration-150">
+                    Categories
+                </h1>
+                <a
+                    class="text-white text-md lg:text-xl hover:text-slate-400 cursor-pointer transition-colors ease-in duration-150" href="../pages/about.html">
+                    About Us
+                </a>
+                <a
+                    class="text-white text-md lg:text-xl hover:text-slate-400 cursor-pointer transition-colors ease-in duration-150">
+                    View Cart
+                </a>
+                <a class="text-white text-md lg:text-xl hover:text-slate-400 cursor-pointer transition-colors ease-in duration-150"
+                    href="../pages/index.html">
+                    Log out
+                </a>
+            </div>
+            <!--Hamburger button-->
+            <button id="menu" class="open block hamburger md:hidden focus:outline-none place-self-center">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </nav>
+        <!--Mobile Menu-->
+        <div class="md:hidden">
+            <div id="menu-list"
+                class="absolute flex-col px-6 hidden py-12 space-y-6 font-bold bg-white w-[50%] h-[100vh] drop-shadow-lg right-0 left-0 transition-all ease-in-out duration-300">
+                <a href="../pages/home.html" class="hover:text-green-700 text-lg">Home</a>
+                <a href="" class="hover:text-green-700 text-lg">Categories</a>
+                <a href="../pages/about.html" class="hover:text-green-700 text-lg">About Us</a>
+                <a href="" class="hover:text-green-700 text-lg">View Cart</a>
+                <a href="../pages/index.html" class="hover:text-green-700 text-lg">Logout</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="flex flex-col">
+        <!--Flex Container-->
+        <div class="flex flex-col h-[80vh] space-y-6 md:space-x-8 mx-auto w-[80%] md:flex-row md:space-y-0">
+            <!--Category List-->
+            <div class="flex flex-col w-[100%] space-y-6 bg-slate-100 shadow-sm p-6 px-10 md:w-[20%]">
+                <div id="categories">
+                    <h3 class="text-xl font-bold border-b-[3px] border-b-green-700">Categories</h3>
+                    <ul>
+                        <li>Foodgrains and Oils</li>
+                        <li>Atta</li>
+                        <li>Flour</li>
+                        <li>Dals</li>
+                        <li>Pulses</li>
+                        <li>Edible Oils</li>
+                        <li>Organic Staples</li>
+                        <li>Rice and Rice products</li>
+                        <li>Sugar and Jaggery</li>
+                        <li>Spices and Seeds</li>
+                        <li>Tea Powder</li>
+                        <li>Soaps</li>
+                    </ul>
+                </div>
+                <div id="gifthampers">
+                    <h3 class="text-xl font-bold border-b-[3px] border-b-green-700">Gift Hampers</h3>
+                    <ul>
+                        <li>Pongal Gifts</li>
+                        <li>Tamil New Year Gifts</li>
+                        <li>Ayudha Pooja Gifts</li>
+                        <li>Diwali Gifts</li>
+                        <li>Deepam Gifts</li>
+                    </ul>
+                </div>
+            </div>
+        
+            <!--Contact Page-->
+            <div class="flex flex-col space-y-5 place-content-center w-[100%] md:w-[60%] py-6 md:pr-14">
+                <h1 class="w-full text-3xl md:text-5xl font-bold">
+                    Contact Us
+                </h1>
+                <h1 class="w-full text-sm md:text-xl font-bold text-green-700">
+                    எங்களை தொடர்பு கொள்ள
+                </h1>
+                <!--Maps-->
+                <iframe class="w-full h-full shadow-lg"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8008.850943695579!2d80.22789540225432!3d12.815637845917642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525b9b28e0c9a1%3A0x23a26a66b9f8ec70!2sRation%20Shop!5e0!3m2!1sen!2sin!4v1668690839468!5m2!1sen!2sin"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <!--Timings-->
+            <div class="place-self-center w-[100%] md:w-[20%]">
+                <h3 class="text-lg font-bold border-b-[3px] border-b-green-700">Shop Location</h3>
+                <ul>
+                    <li>Kazhipattur, OMR</li>
+                    <li>Chennai - 603 130</li>
+                </ul>
+                <h3 class="text-lg font-bold border-b-[3px] border-b-green-700">PHONE </h3>
+                <ul>
+                    <li>+91 XXXXXXXXXX</li>
+                </ul>
+                <h3 class="text-lg font-bold border-b-[3px] border-b-green-700">EMAIL </h3>
+                <ul>
+                    <li>help_us@hotmail.com</li>
+                </ul>
+            </div>
+        </div>
+        <!--Footer-->
+        <footer class="hidden md:block w-full">
+            <div class="flex flex-col md:flex-row justify-around bg-green-900 p-4 space-y-4 md:space-y-0">
+                <!--Logo-->
+                <div class="flex space-x-3 place-self-center">
+                    <img src="../images/tn_govt.svg" alt="" class="h-12 md:h-20 place-self-center">
+                    <div class="flex flex-col text-white place-self-center">
+                        <p class="text-xs lg:text-md">OFFICIAL WEBSITE OF CIVIL SUPPLIES AND CONSUMER PROTECTION
+                            DEPARTMENT, GOVERNMENT OF TAMILNADU</p>
+                        <p class="text-sm font-bold lg:text-lg">E-PUBLIC DISTRIBUTION SYSTEM</p>
+                    </div>
+                </div>
+                <!--Copyrights-->
+                <div class="text-white font-bold place-self-center">
+                    © All rights reserved
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="../js/index.js"></script>
+</body>
+</html>

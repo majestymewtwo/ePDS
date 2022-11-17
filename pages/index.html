@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - ePDS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../css/output.css">
+</head>
+<body class="h-[100vh] bg-gradient-to-br from-green-900 to-green-500 relative">
+    <!--Header-->
+    <div class="bg-green-900 text-sm py-2 px-4 text-right text-white font-bold md:text-md absolute top-0 w-full">
+        <div class="flex justify-end space-x-12">
+            <p class="hover:text-slate-300 cursor-pointer transition-all ease-in-out duration-150">English</p>
+            <p class="hover:text-slate-300 cursor-pointer transition-all ease-in-out duration-150">தமிழ்</p>
+            <p class="hover:text-slate-300 cursor-pointer transition-all ease-in-out duration-150">+91 XXXXX XXXXX</p>
+        </div>
+    </div>
+
+    <!--Login Form-->
+    <figure class="fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex flex-col space-y-10 py-2 px-8 w-[80%] bg-slate-50 rounded-md shadow-xl lg:w-[30%]">
+        <div class="flex flex-col space-y-3">
+            <img src="../images/tn_govt.svg" alt="" class="h-12 md:h-20 place-self-center">
+            <h1 class="text-xl font-bold text-center">
+                E-PUBLIC DISTRIBUTION SYSTEM
+            </h1>
+        </div>
+        <h1 class="text-3xl font-bold text-center">
+            User Login
+        </h1>
+        <form action="" class="flex flex-col space-y-2 text-lg">
+            <label for="mobile_no">Registered Mobile:</label>
+            <input type="text" name="mobile_no" id="mobile_no" class="outline-none border-b-4 w-full focus:outline-none focus:border-b-green-700 hover:border-b-green-700 transition-all ease-in-out duration-300">
+            <label for="pass">Password:</label>
+            <input type="password"  name="mobile_no" id="mobile_no"
+                class="outline-none border-b-4 w-full focus:outline-none focus:border-b-green-700 hover:border-b-green-700 transition-all ease-in-out duration-300">
+            <button class="shadow-md bg-gradient-to-r from-green-700 to-green-600 text-white text-xl font-bold rounded-2xl mx-auto py-2 px-4 w-[50%] hover:scale-105 hover:shadow-xl hover:bg-gradient-to-l hover:from-green-700 hover:to-green-600 transition-all ease-in-out duration-500" onclick="hrefFunction()">
+                <a href="./home.html">
+                    Login
+                </a>
+            </button>
+        </form>
+        <a href="./home.html" class="text-slate-400 text-right hover:text-black transition-colors ease-in duration-100">
+            Click here to register
+        </a>
+    </figure>
+
+    <!--Footer-->
+    <!--Footer-->
+    <footer class="absolute bottom-0 w-full">
+        <div class="flex flex-col md:flex-row justify-around bg-green-900 p-2 space-y-4 md:space-y-0">
+            <!--Logo-->
+            <div class="flex space-x-3 place-self-center">
+                <img src="../images/tn_govt.svg" alt="" class="h-12 md:h-20 place-self-center">
+                <div class="flex flex-col text-white place-self-center">
+                    <p class="text-xs lg:text-md">OFFICIAL WEBSITE OF CIVIL SUPPLIES AND CONSUMER PROTECTION
+                        DEPARTMENT, GOVERNMENT OF TAMILNADU</p>
+                    <p class="text-sm font-bold lg:text-lg">E-PUBLIC DISTRIBUTION SYSTEM</p>
+                </div>
+            </div>
+            <!--Copyrights-->
+            <div class="text-white font-bold place-self-center">
+                © All rights reserved
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
